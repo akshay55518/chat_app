@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <h2>Chats</h2>
+            <br>
+            <form action="">
+                <input type="search" name="" class="search">
+            </form>
+            <br>
+            <hr>
+            <br>
+            
+            <a href="">
+                <div class="user">
+                    <img src="{% static 'image/profile.jpg'%}" alt="P" class="propic">
+                    <div class="block">
+                        <h4>Akshay</h4>
+                        <p>Hi Welcome to ChatApp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis, quam animi quasi ullam ex explicabo, rerum voluptates est obcaecati ut. Sint quod quaerat omnis perferendis tempore fugit porro. Repellat.</p>
+                    </div>
+                    <div class="block">
+                        <h6>27/02/2024</h6>
+                        <span class="notification_badge">10</span>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+
+        <!-- <div class="vl"></div> -->
+
+        <div class="row2">
+            <div class="header-section">
+                <img src="{% static 'image/profile.jpg' %}" alt="" class="propic">
+                <div class="main">
+                    <h2>Akshay</h2>
+                    <p>Online</p>
+                </div>
+            </div>
+            <div class="chat-section">
+              <h1>messages</h1>  
+              <input type="text" name="" id="" class="msg-box">
+            </div>
+            
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
